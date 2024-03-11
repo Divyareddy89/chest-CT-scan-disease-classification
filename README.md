@@ -1,7 +1,7 @@
 # chest-CT-scan-disease-classification
 Chest-Disease-Classification-from-Chest-CT-Scan-Image
 
-Live matarials docs
+# Live matarials docs
 
 link
 
@@ -12,15 +12,32 @@ git add .
 git commit -m "Updated"
 
 git push origin main
-How to run?
+
+# How to run?
 
 conda create -n chest python=3.8 -y
 conda activate chest
 pip install -r requirements.txt
 python app.py
 
+# Workflows
 
-Mlflow dagshub connection uri
+Update config.yaml
+Update params.yaml
+Update the entity
+Update the configuration manager in src config
+Update the components
+Update the pipeline
+Update the main.py
+Update the dvc.yaml
+Live matarials docs
+
+
+link: https://docs.google.com/document/d/1UFiHnyKRqgx8Lodsvdzu58LbVjdWHNf-uab2WmhE0A4/edit
+
+
+
+# Mlflow dagshub connection uri
 
 MLFLOW_TRACKING_URI=https://dagshub.com/divreddy89.78/MLFLOW_experiment_project_demo.mlflow
 MLFLOW_TRACKING_URI=https://dagshub.com/divreddy89.78/MLFLOW_experiment_project_demo.mlflow \
